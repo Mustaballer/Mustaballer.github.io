@@ -1,0 +1,36 @@
+body {
+    background-color:whitesmoke;
+    font-family: arial;
+}
+
+h1 {
+    background: Purple;
+    color: white;
+    padding: 10px 8px;
+    text-align: center;
+    border: 8px solid yellow;
+}
+
+
+
+h2 {
+    color: #444;
+    background: white;
+}
+a {
+    color: blue;
+}
+p {
+    background: lightyellow;
+    color: darkmagenta;
+    padding: 5px  6px 7px 9px;
+}
+.secondary {
+    background: violet;
+    padding: 5px 7ps:
+    color: #777;
+}
+#nav {
+    background: none;
+    color: mediumvioletred;
+}
