@@ -1,14 +1,36 @@
 body {
     background-color:whitesmoke;
+    margin: 0;
     font-family: arial;
 }
 
-h1 {
-    background: Purple;
+header {
+    background: turquoise;
     color: white;
-    padding: 10px 8px;
-    text-align: center;
-    border: 8px solid yellow;
+    padding: 45px 35px 15px 23px;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    text-align: 
+}
+nav ul{
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+}
+nav ul li {
+    background:white;
+    color: darkturquoise;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+nav ul li a {
+    color: Black;
+    text-decoration: none;
 }
 
 
@@ -16,21 +38,21 @@ h1 {
 h2 {
     color: #444;
     background: white;
+    margin: 10;
 }
 a {
-    color: blue;
+    color: darkgoldenrod;
+    margin: 0;
 }
 p {
-    background: lightyellow;
-    color: darkmagenta;
-    padding: 5px  6px 7px 9px;
+    background: white  ;
+    color: Black;
+    padding: 10px 1px 1px 19px;
+    margin: 5px;
 }
 .secondary {
     background: violet;
     padding: 5px 7ps:
     color: #777;
-}
-#nav {
-    background: none;
-    color: mediumvioletred;
+    margin: 0;
 }
