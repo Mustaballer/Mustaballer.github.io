@@ -5,20 +5,22 @@ body {
 }
 
 header {
-    background: lightblue;
-    background-image: url(img/.png);
+    background: turquoise;
     background-size: 100%;
     background-position: center;
-    color: white;
-    margin: 0px;
-    padding: 20px;
-    text-align: left;
+    color: cyan;
+    margin: 10px;
+    padding: 120px;
+    text-align: right;
 }
 
 header h1 {
     font-size: 300%;
     font-weight: 400;
-    margin: 50px 10px 12px 5px;
+    padding: 0px 20px 9px 0px;
+    margin: 50px 0px 2px 0px;
+    text-align: left;
+    color: aliceblue;
 }
 
 #logo {
@@ -32,14 +34,14 @@ header h1 {
     width: 185px; 
 }
 
-#bgimage {
-    background-size: 10%;
-    background: lightblue;
-    background-image: url(img/backgroundm.png);
+header.showcase {
+    background:url('../img/backgroundm.png') no-repeat 0 -100px;
+    background-size: 100%;
     background-position: center;
-    color: white;
-    margin: 0px;
-    padding: 20px;
+    height: 250px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul{
@@ -72,10 +74,12 @@ a {
     margin: 0;
 }
 p {
-    background: none;
-    color: Black;
+    background: turquoise;
+    border-radius: 100px;
+    color: white;
     padding: 10px 1px 1px 19px;
     margin: 5px;
+    shape-inside: auto;
 }
 
 .end {
