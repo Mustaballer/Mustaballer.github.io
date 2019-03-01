@@ -1,5 +1,5 @@
 body {
-    background-color:whitesmoke;
+    background-color:darkturquoise;
     margin: 0;
     font-family: arial;
 }
@@ -63,29 +63,58 @@ nav ul li a {
     text-decoration: none;
 }
 
+.features {
+    margin-bottom: 30px;
+    color:white;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+}
+
+.features img {
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    box-shadow: white 1px 0 0 1px;
+    width: 350px;
+    height: 200px;
+}
 
 h2 {
-    color: #444;
-    background: white;
+    color: lightblue;
+    background: black;
     margin: 10;
 }
 a {
-    color: darkgoldenrod;
-    margin: 0;
+    color: lightcyan;
+    margin: 1px;
+}
+.White {
+    padding: 0px;
+    margin: 0px;
+    background: white;
 }
 p {
-    background: turquoise;
+    background: paleturquoise;
     border-radius: 100px;
-    color: white;
+    color: blue;
     padding: 10px 1px 1px 19px;
     margin: 5px;
     shape-inside: auto;
 }
 
-.end {
-    background: lightblue;
-    color: Black;
-    padding: 0px;
-    margin: 0px;
+footer {
+    background: black;
+    color: grey;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
 }
 
