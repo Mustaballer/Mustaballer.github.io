@@ -1,5 +1,5 @@
 body {
-    background-color:darkturquoise;
+    background-color:rgb(11,150, 150);
     margin: 0;
     font-family: arial;
 }
@@ -19,7 +19,7 @@ header h1 {
     font-weight: 400;
     padding: 0px 20px 9px 0px;
     margin: 50px 0px 2px 0px;
-    text-align: left;
+    text-align: center;
     color: aliceblue;
 }
 
@@ -54,6 +54,7 @@ nav ul li {
     color: darkturquoise;
     display: inline-block;
     list-style-type: none;
+    text-align: center;
     margin: 0 20px 0 0;
     text-transform: uppercase;
     
@@ -66,40 +67,50 @@ nav ul li a {
 .features {
     margin-bottom: 30px;
     color:white;
-    padding: 40px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     background: black;
 }
 .features figure {
-    margin: auto;
+    margin-right: 500px;
     text-align: center;
     text-transform: uppercase;
-    width: 200px;
+    width: 150px;
     height: 200px;
+}
+.left {
+    
+}
+.center {
+    
+}
+.right {
+    
 }
 
 .features img {
+    display: block;
     border: 1px solid skyblue;
     border-radius: 50%;
     box-shadow: white 1px 0 0 1px;
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 210px;
 }
 
 h2 {
     color: lightblue;
     background: black;
-    margin: 10;
+    margin: 0.25px;
 }
 a {
     color: lightcyan;
     margin: 1px;
 }
 .White {
-    padding: 0px;
+    padding-bottom: 10px;
     margin: 0px;
-    background: white;
+    background: rgb(90, 777, 777);
 }
 p {
     background: paleturquoise;
@@ -117,4 +128,13 @@ footer {
     padding: 20px 20px;
     text-align: center;
 }
+
+.BodyMargins {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+
+
+
 
