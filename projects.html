@@ -4,22 +4,29 @@
         <title>My First Web Page</title>
         <link href="css/main.css" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Mono" rel="stylesheet">
-    </head>
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+  <script defer src="game.js"></script>
+        <style>
+         canvas {
+          width: 500px;
+         }
+        </style>
+    </head> 
     <body>
-        <header class="showcase">
+         <header class="showcase">
             <nav> 
                 <ul> 
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About Me</a></li>
                     <li class="logo"><a href="index.html"><img id="logo" src="img/mlogo.png"></a></li>
                     <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li>Contact</li>
+                    <li>Projects</li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h1> Mustafa's Website</h1>
+             <h1> Mustafa's Website</h1>
         </header>
-        <section class="features"> 
+             <section class="features"> 
                 <figure>
                 <img src="img/softwaredeveloper.jpg" alt="software pic">
                     <figcaption> Software Design</figcaption>
@@ -33,15 +40,12 @@
                     <figcaption> AI Learning</figcaption>
                 </figure>
             </section>
-        <div class="BodyMargins">  
-        <h2> Check out my stuff</h2>
-        <ol>   
-            <li><a href="https://github.com/1abdulrahmus">My Github</a></li>
-            <li><a href="https://www.linkedin.com/in/mustafa-abdulrahman-a359b0170/">LinkedIn</a></li>
-        </ol>
-        </div>
-        <footer>2899 Flake Street Milton, ON • 555-555-555 • 1abdulrahmus@hdsb.ca </footer>   
-    </body>
-    
-</html>
+    <div class="BodyMargins">  
+        <h2> Current Projects</h2>
+        <p> In this web page, I will be showcasing the current projects that I am working on.</p>
+        <p> The game that you see below me, is called Snow Run. It as an action based 2d platformer run by Phaser- a JavaScript framework. </p>
+    </div>
+        <footer>2899 Flake Street Milton, ON • 555-555-555 • 1abdulrahmus@hdsb.ca </footer>     
         
+    </body>
+</html>
