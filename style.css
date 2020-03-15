@@ -1,0 +1,190 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#loading {
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: white
+	url('https://infolanka.lk/wp-content/themes/infolanka/assests/images/loading.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+#header 
+{
+    
+    background-image: url(images/MyJikanBotSnap.png); 
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar-nav li a
+{
+    float: right;
+    color: #fff!important;
+}
+.navbar-brand img
+{
+    width: 200px;
+    margin-left: 15px;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none !important;
+}
+nav .fa-bars
+{
+    color: #fff;
+    font-size: 26px;
+}
+
+
+
+/*---------------------------TYPEWRITER--------------*/
+
+
+/*---------------------------WELCOME--------------*/
+
+.welcome
+{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 20px 7px rgb(0, 0, 0, 0.2);
+}
+.welcome h3
+{
+    color: darkblue
+}
+.welcome .home-btn
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus
+{
+    box-shadow: none;
+}
+
+/*--------------------------ABOUT ME-------------------------------------*/
+
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding: 20px 10px;
+}
+#about h3
+{
+    margin: 20px auto;
+}
+/*-----------------------SERVICES----------------------------*/
+
+#services
+{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .col-md-4
+{
+    padding: 20px;
+}
+#services .col-md-4 h4
+{
+    padding: 5px;
+}
+#services .col-md-4 img
+{
+    width: 50px;
+}
+#services .col-md-4 p
+{
+    padding: 5px;
+    text-align: justify;
+}
+
+
+/*-----------------------Foooter Section----------------------------*/
+
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: darkblue;
+    color: white;
+}
+.footer-logo
+{
+    width: 120px;
+}
+#footer h1
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p
+{
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .city
+{
+    margin-left: 37px;
+}
+#footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer .hr
+{
+    margin-top: 10px;
+}
+#footer .fa-heart-o
+{
+    color:red;
+    font-size: 17px;
+}
+#footer .copyright
+{
+    margin-bottom: -80px;
+    text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

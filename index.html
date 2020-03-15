@@ -1,63 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>My First Web Page</title>
-        <link href="css/main.css" rel="stylesheet" type="text/css"> 
-        <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Mono" rel="stylesheet">
-    </head>
-    <body>
-        <header class="showcase">
-            <nav> 
-                <ul> 
-                    <li>Home</li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li class="logo"><a href="index.html"><img id="logo" src="img/mlogo.png"></a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <h1> Mustafa's Website</h1>
-        </header>
-        <section class="features"> 
-            <figure class="left">
-            <img src="img/softwaredeveloper.jpg" alt="software pic">
-                <figcaption> Software Design</figcaption>
-            </figure>
-            <figure class="center">
-            <img src="img/webdeveloper.jpg" alt="webdeveloper pic">
-                <figcaption> Web Development</figcaption>
-            </figure>
-            <figure class="right">
-            <img src="img/aideveloper.jpg" alt="ai developer pic">
-                <figcaption> AI Learning</figcaption>
-            </figure>
-        </section>
-    <div class="BodyMargins">  
-        <p> Hello viewer, this is the result of several hours spent learning HTML and CSS.</p>
-        <h2> About Me</h2>
-        <p> My name is Mustafa Abdulrahman, and this is my personal website. I have delved into programming previously, but this is my first public application in my goal of creating my own website. </p>
-        <p> Something about me that I like is athletics. This year I have played for my school's basketball and volleyball teams.</p>
-        <p> Another hobby I do enjoy is playing videogames. One of them that I truely enjoyed was Bloodborne, and Persona 5. Both these games involve lots of dedication. This just proves how passionate I am on playing videogames</p>
-        <div class="White"><h2> Skills I know</h2>
-        <h4> Programming Languages</h4>
-            <ul id="nav">
-                <li> HTML5</li>
-                <li> CSS</li>
-                <li> Java</li>
-                <li> Khan academy JS</li>
-                <li> Arduino-C</li>
-            </ul>
-        </div>
-        <h2> Check out my stuff</h2>
-        <ol>   
-            <li><a href="https://github.com/1abdulrahmus">My Github</a></li>
-            <li><a href="https://www.linkedin.com/in/mustafa-abdulrahman-a359b0170/">LinkedIn</a></li>
-        </ol>
+
+<html>
+<head>
+<title> Mustafa | SOFTWARE DEVELOPER </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="jquery-2.1.4.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+</head>
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+
+ <!------------------------------------HEADER--------------------------------------->  
+ <section id = "header"> 
+     <nav class="navbar navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/mustafa_white_logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">PROJECTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">GOALS</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTACT ME</a>
+      </li>
+    </ul>
+  </div>
+</nav>  
+</section>   
+    
+
+        <!------------------------WELCOME-------------------->
+    
+<Section id="welcome">
+    <div class="container">
+    <div class="welcome text-center wow fadeInUp delay-4s">
+    <!------------------------TEST FOR TYPEWRITER-------------------->
+    <h3> Mustafa Abdulrahman</h3>
+    <h1> I am a <span class="typing"></span></h1>
+     <p>I am not just a programmer, not just an algorithm enthusiast, or a data scientist. I am a human just like everyone else that wants to accomplish one thing. That is happiness. This means to me a lot, and something I enjoy doing is making applications from Discord Bots to 2d games that can help make people's lives easier. I find satisfaction from being a mentor, being a leader, and being someone who has a heart. Scroll down to see more of what I have to show to you.</p>
+        <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="#about">See More</a>
+    </div>   
     </div>
-        <footer>2899 Flake Street Milton, ON • 555-555-555 • 1abdulrahmus@hdsb.ca </footer>
- </body>
+    </Section>
+    
+    <!-------------------------------ABOUT ME--------------------------------->
+    
+    <section id="about">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6 text-center wow fadeInLeft">
+        <img src="images/mustafa_logo.png" class="rounded float-left">
+    </div>   
+    <div class="col-md-6 text-justify wow fadeInRight">
+        <h3>MyJikanBot</h3>
+        <p>I love both manga and anime, hence this became the passion to create my best project as of yet, MyJikanBot. This Bot utilizes the JDA wrapper- a less common wrapper for Discord alongside with the JIKAN REST API to send back anime or manga information from the MyAnimeList database. This includes search queries, to random manga/anime and much more. My hardest challenges was being able to parse the data and collect it into an organized format. I accomplished this by using embeds that presented the data in a list of 5 entries. </p>
+    </div>
+        <div class="col-md-6 text-justify wow fadeInLeft">
+        <h3>Winter Run</h3>
+        <p>One of my early projects but still holds a big part in my development as a software enthusiast. It is this game- this 2d arcade game that showed me how the principles of code and logic work alongside each other. Winter Run is a game that shows a character- a ninja named Mustafa that jumps over many obstacles. Along the way he witnesses an enormounce abundance of bouncing stars- and so he sets his goal to collect as many stars. He gets interrupted by an evil snowman near the end of each fireplace. It is up to you to help Mustafa collect all the stars. Play now at this link: <a href="https://winter-run.herokuapp.com/">https://winter-run.herokuapp.com/</a></p>
+    </div>
+        <div class="col-md-6 text-justify wow fadeInRight">
+         <img src="images/mustafa_logo.png" class="rounded float-right">
+        </div>
+    </div>
+    </div>
+    </section>
+    
+    <!-------------------------------SERVICES--------------------------------->
+
+    <section id="services">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+     <img src="images/mustafa_logo.png" class="wow fadeInRight">
+     <h4 class="wow fadeInRight">WEB DEVELOPMENT</h4>
+      <p>This website was created with the use of web technologies, many of the features were made with advanced js files that include scrollbar animation, box design, structure, and typewriter effects.</p>   
+    </div>
+        <div class="col-md-4">
+     <img src="images/mustafa_logo.png" class="wow fadeInRight">
+     <h4 class="wow fadeInRight">APP DEVELOPMENT</h4>
+      <p>My plan is to create an app that can be of use to people around the world. I gain happiness from helping others- it is my calling to create an app that can make something that is unnecessarily hard to something easy.</p>   
+    </div>
+        <div class="col-md-4">
+     <img src="images/mustafa_logo.png" class="wow fadeInRight">
+     <h4 class="wow fadeInRight">BACKEND DEVELOPMENT</h4>
+      <p>Another goal I have in mind is to learn more about server development. I have learned alot on front end tech but I want to know what happens behind the scenes. What allows this to happen the way it does? I must know.</p>   
+    </div>
+    </div>    
+    </div>
+    </section>
+    
+   <!-------------------Footer section------>
+    <section id="footer">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-3">
+     <img src="images/mustafa_white_logo.png" class="footer-logo"> 
+     <p>This is my showcase website which holds all my best projects from discord bots to cool arcade games</p>   
+    </div>  
+         
+    <div class="col-md-3">
+    <h1>Titles</h1>
+        <p>Certified Programmer</p>
+        <p>Software Lover</p>
+        <p>Game Player</p>
+        <p>Anime Enthusiast</p>
+    </div>
+         
+    <div class="col-md-3">
+    <h1>Quick Contact</h1>
+            <p><i class="fa fa-phone-square"></i> +1 999-999-999(!)</p>
+            <p><i class="fa fa-envelope"></i> mus2003.abdul@gmail.com</p>
+            <p><i class="fa fa-home"></i> xyz Road, xyz Complex(!)</p>
+            <p class="city"> GTA, Canada</p>
+    </div>
+    <div class="col-md-3">
+    <h1>Follow me On</h1>
+            <p><i class="fa fa-github"></i><a href="https://github.com/Mustaballer">Github</a></p>
+            <p><i class="fa fa-facebook"></i><a href="https://www.facebook.com/Mustaballer">Facebook</a></p>
+            <p><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/mustafaabdulrahman123">LinkedIn</a></p>
+            <p><i class="fa fa-twitter"></i><a href="https://twitter.com/1abdulrahmus">Twitter</a></p>
+    </div>
+    </div> <hr>  
+    <p class="copyright">Made<> with HTML, CSS, JS, BOOTSTRAP, and JQUERY by Mustafa Abdulrahman ©</p>   
+        
+    </div>
+    
+    
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--------------SMOOTH SCROLL------------->
+    <script src="js/smooth-scroll.js"></script>
+    <!---------------ANIMATION--------------------->
+    <script src="js/wow.min.js"></script>
+        <!---------------TYPEWRITER TEST--------------------->
+
+    <script src="js/typed.min.js"></script>
+    <script>
+        var preloader = document.getElementById('loading');
+        setTimeout(
+          function myFunction() 
+          {
+            preloader.style.display = 'none';
+            //do something special
+          }, 3000);
+        
+        
+        
+        new WOW().init();
+        var scroll = new SmoothScroll('a[href*="#"]');
+        
+         var typed = new Typed('.typing', {
+        strings: ["Phaser Game Developer", "JDA Bot Designer", "Front-End Creator", "Server Side Coder"],
+             loop: true,
+          typeSpeed: 40,
+             backSpeed: 40,
+             backDelay: 1000,
+      });
+        
+    </script>
+    
+    
+</body>
 
 
 </html>
