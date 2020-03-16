@@ -14,8 +14,7 @@
 }
 #header 
 {
-    
-    background-image: url(images/MyJikanBotSnap.png); 
+    background-image: url(images/test-screen.jpg); 
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -26,6 +25,7 @@
 {
     float: right;
     color: #fff!important;
+    font-weight: bold;
 }
 .navbar-brand img
 {
@@ -74,48 +74,126 @@ nav .fa-bars
 {
     box-shadow: none;
 }
+.welcome a{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+    font-family:sans-serif;
+
+}
+.welcome a:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+  text-decoration: none;
+}
+.welcome a span{
+  position: absolute;
+  display: block;
+}
+.welcome a span:nth-child(1)  {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+.welcome a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.welcome a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+.welcome a:hover span:nth-child(3) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.welcome a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+.welcome a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.welcome a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+.welcome a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
 
 /*--------------------------ABOUT ME-------------------------------------*/
 
-#about
+#projects
 {
     padding-top: 100px;
-    padding-bottom: 100px;
+   padding-bottom: 100px; 
 }
-#about .col-md-6
-{
-    padding: 20px 10px;
-}
-#about h3
-{
-    margin: 20px auto;
-}
-/*-----------------------SERVICES----------------------------*/
 
-#services
+#projects .col-md-4:hover
 {
-    background-color: #efefef;
+    background-color: lightcyan;
+}
+
+#projects .card-img-top
+{
+    height: 260px;
+    width: 340px;
+}
+
+
+/*-----------------------GOALS----------------------------*/
+
+#goals
+{
+    background-color: #F1FDFF;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 80px; 
 }
 
-#services .col-md-4
+#goals .col-md-4
 {
     padding: 20px;
 }
-#services .col-md-4 h4
+#goals .col-md-4 h4
 {
     padding: 5px;
 }
-#services .col-md-4 img
+#goals .col-md-4 img
 {
-    width: 50px;
+    width: 100px;
 }
-#services .col-md-4 p
+#goals .col-md-4 p
 {
     padding: 5px;
     text-align: justify;
 }
+ 
 
 
 /*-----------------------Foooter Section----------------------------*/
@@ -123,13 +201,13 @@ nav .fa-bars
 #footer
 {
     margin-top: 80px;
-    padding: 100px;
+    padding: 100px; 
     background-color: darkblue;
-    color: white;
+    color: #E9F9FC;
 }
 .footer-logo
 {
-    width: 120px;
+    width: 100px;
 }
 #footer h1
 {
@@ -162,29 +240,20 @@ nav .fa-bars
     color:red;
     font-size: 17px;
 }
+#footer a
+{
+    color: white;
+}
+#footer i:hover
+{
+    color: orange;
+    outline-color: orange;
+}
+
 #footer .copyright
 {
     margin-bottom: -80px;
     text-align: center; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
