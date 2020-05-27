@@ -16,10 +16,6 @@ Click the link here to see my website: https://mustaballer.github.io/
 
 * **Mustafa Abdulrahman** - *Primary Creator* - [Mustaballer](https://github.com/Mustaballer)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * Used Readme template from PurpleBooth
