@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website that is the showcase for all my past, current, and future projects.
+This is my personal showcase website for all past, current, and future projects.
 
 Click the link here to see my website: https://mustaballer.github.io/
 
