@@ -2,7 +2,7 @@
 
 This is my personal showcase website for all past, current, and future projects.
 
-Click the link here to see my website: https://mustaballer.github.io/
+Click the link here to see my portfolio website: https://mustaballer.github.io/
 
 ## Built With
 
