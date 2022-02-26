@@ -14,7 +14,7 @@
 }
 #header 
 {
-    background-image: url(images/test-screen.jpg); 
+    background-image: url(images/toronto.jpeg);
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -29,8 +29,10 @@
 }
 .navbar-brand img
 {
-    width: 200px;
-    margin-left: 15px;
+    width: 75px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 15px;
 }
 .navbar-toggler
 {
@@ -53,7 +55,7 @@ nav .fa-bars
     margin-top: -140px;
     background-color: #fff;
     color: #333;
-    box-shadow: 0 0 20px 7px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0.3);
 }
 .welcome h3
 {
